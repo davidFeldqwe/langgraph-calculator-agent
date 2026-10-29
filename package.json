@@ -1,0 +1,25 @@
+{
+  "name": "langgraph-calculator-agent",
+  "version": "1.0.0",
+  "description": "A minimal LangGraph.js calculator agent (StateGraph tool-calling loop), following the official LangGraph quickstart",
+  "scripts": {
+    "start": "tsx main.ts",
+    "test": "vitest run"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "type": "module",
+  "packageManager": "pnpm@10.34.4",
+  "dependencies": {
+    "@langchain/anthropic": "^1.6.0",
+    "@langchain/core": "^1.3.1",
+    "@langchain/langgraph": "^1.5.3",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.5"
+  }
+}
